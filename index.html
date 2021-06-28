@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="colorFlipper.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div id="heading">Color Flipper</div>
+            <div id="headoption">
+                <label>R-<input type="number" name="red" class="input" id="redinp" placeholder="Red"></label>
+                <label>G-<input type="number" class="input" id="greeninp" placeholder="Green"></label>
+                <label>B-<input type="number" class="input" id="blueinp" placeholder="Blue"></label>
+                <input type="submit" id="submitbtn" value="Subimt">
+            </div>
+        </nav>
+    </header>
+    <div id="container">
+        <div class="bgChanger">
+            Background Color :&nbsp;<div id="colorname">&nbsp;Rgb(229, 229, 235)</div>
+        </div>
+        <div id="btn">
+            CLICK ME
+        </div>
+    </div>
+    <script src="colorFlipper.js"></script>
+</body>
+</html>
